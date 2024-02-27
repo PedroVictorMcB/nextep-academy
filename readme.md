@@ -1,7 +1,7 @@
 # neXtep-academy o que é?
 
 Este é um projeto acadêmico desenvolvido para a cadeira de *Desenvolvimento de Plataformas Web*.
-O trabalho objetiva criar um site acadêmico, voltado para o estudo da área de *desenvolvimento web*. Neste viso criar páginas web státicas, estas são:
+O trabalho objetiva criar um site acadêmico, voltado para o estudo da área de *desenvolvimento web*. Neste viso criar páginas web státicas com HTML e CSS, estas são:
 
 * Home Page
 * FAQ - Perguntas Frequentes
