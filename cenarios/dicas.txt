@@ -1,0 +1,2 @@
+1 - criar documento de relatório.
+1.1 - colocar gráficos com resultados das pesquisas no relatório.
