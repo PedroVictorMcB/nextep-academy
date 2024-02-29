@@ -21,40 +21,52 @@
             <figure>
                 <a href="./index.html"><img src="./DB/img/nextep-logo.png" /></a>
             </figure>
-            <a href="./suporte.html">Ajuda e suporte</a>
-            <a href="./cadastro.html">Cadastro</a>
-            <a href="./login.html">Login</a>
+            <div id="text-btns">
+            <a class="anchor" href="./suporte.html"><button>Ajuda e suporte</button></a>
+            <a class="anchor" href="./cadastro.html"><button>Cadastro</button></a>
+            <a class="anchor" href="./login.html"><button>Login</button></a>
+            </div>
         </nav>
     </header>
     <main>
         <section class="introduction">
             <div class="banner">
-                <!-- TODO - Neste banner descreva seu projeto e e faça uma chamada para o público conhecer seu site. -->
-                <h1>
-                    Somos a neXtep Academy
-                </h1>
-                <h4>
-                    O seu próximo passo no mundo do Desenvolvimento Web
-                </h4>
-                <p>
-                    Nosso objetivo é simples porém audacioso, vamos transformar leigos do mundo da computação em profissionais iniciantes, como se diz no mercado de TI, em <em>Júniors</em>.<br>
-                    Vamos trazer conteúdo desde o nível inicial até níveis mais avançados, em formato de vídeo, para você usuário de nosso site.<br>
-                    Para isto contamos com seu apoio. Torne-se um professor em nosso site e compartilhe um vídeo com o assunto que você mais domina.<br>
-                    E juntos vamos digitalizar nosso país. 
-                </p>
+                <div id="text-banner">
+                    <h1>
+                        Somos a neXtep Academy
+                    </h1>
+                    <h4>
+                        O seu próximo passo no mundo do Desenvolvimento Web
+                    </h4>
+                    <p>
+                        Nosso objetivo é simples porém audacioso, vamos transformar leigos do mundo da computação em profissionais iniciantes, como se diz no mercado de TI, em <em style="background-color: transparent;">Júniors</em>.<br>
+                        Vamos trazer conteúdo desde o nível inicial até níveis mais avançados, em formato de vídeo, para você usuário de nosso site.<br>
+                        Para isto contamos com seu apoio. Torne-se um professor em nosso site e compartilhe um vídeo com o assunto que você mais domina.<br>
+                        E juntos vamos digitalizar nosso país. 
+                    </p>
+                </div>
+                <div id="img-banner">
+                    <img src="./DB/img/freelance-work-7308505_1280.png" />
+                </div>
             </div>
             <div class="carrosel">
-                <h4>
+                <h3>
                     Alguns dos nossos professores(as) de desenvolvimento web
-                </h4>
-                TODO - Aqui ficaram os professores da plataforma, em um carrosel que só gira quando você clica em uma das setas. Os professores estaram dispostos em imagens clicáveis. Ao clicar na imagem de um professor o usuário é direcionado a página do professor com o perfil deste. Em seu perfil aparecerá, cursos minitrados, descrição do profissional, certificados, histórico acadêmico.
+                </h3>
+                <!-- TODO - Aqui ficaram os professores da plataforma, em um carrosel que só gira quando você clica em uma das setas. Os professores estaram dispostos em imagens clicáveis. Ao clicar na imagem de um professor o usuário é direcionado a página do professor com o perfil deste. Em seu perfil aparecerá, cursos minitrados, descrição do profissional, certificados, histórico acadêmico. -->
+                <div id="amostra-teachers">
+                    <img src="./DB/img/david-thompson.jpg" alt="David"/>
+                    <img src="./DB/img/emily-brown.jpg" alt="Emily"/>
+                    <img src="./DB/img/juan-martinez.jpg" alt="Juan"/>
+                    <img src="./DB/img/maria-silva.jpg" alt="Maria"/>
+                </div>
             </div>
         </section>
         <section class="amostra-cursos">
             <div class="titulo">
-                <h3>
-                    Uma amostra do que temos para te oferecer
-                </h3>
+                <h4>
+                    Uma amostra dos cursos que temos para te oferecer
+                </h4>
                 <p>
                     Aqui você poderá ver alguns dos cursos disponíveis pelos professores que utilizam nosso site
                 </p>
@@ -70,11 +82,8 @@
         </section>
     </main>
     <footer>
-        <figure>
-            <img src="./DB/img/nextep-logo.png" alt="logomarca do site"/>
-        </figure>
         <p>
-            &#169 2024 neXtep Academy, Inc.
+            &#169 2024 <a class="anchor" href="./index.html" style="color: rgb(121, 121, 213);">neXtep Academy</a>, Inc.
         </p>
     </footer>
 </body>

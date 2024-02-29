@@ -21,9 +21,11 @@
             <figure>
                 <a href="./index.html"><img src="./DB/img/nextep-logo.png" /></a>
             </figure>
-            <a href="./suporte.html">Ajuda e suporte</a>
-            <a href="./cadastro.html">Cadastro</a>
-            <a href="./login.html">Login</a>
+            <div id="text-btns">
+            <a class="anchor" href="./suporte.html"><button>Ajuda e suporte</button></a>
+            <a class="anchor" href="./cadastro.html"><button>Cadastro</button></a>
+            <a class="anchor" href="./login.html"><button>Login</button></a>
+            </div>
         </nav>
     </header>
     <main>
@@ -37,7 +39,7 @@
                 <!-- TODO - dois botões, um relacionado ao tema dos alunos outro para os professores. Estes botões definem quais perguntas mostrar, se estas são voltadas para os alunos ou para os professores. Trabalhar isso posteriormente usando DOM e REACT -->
 
                 <section class="assunto">
-                    <a href="./tutorial-cadastro.html">
+                    <a class="anchor" href="./tutorial-cadastro.html">
                         <p>
                         Como se cadastrar no neXtep Academy?
                         </p>
@@ -59,29 +61,30 @@
                     </p>
                 </section>
                 <section class="assunto">
-                    <h3>
-                        Não achou o que procurava?
-                    </h3>
-                    <p>
-                        Nos envie sua dúvida preenchendo os campos abaixo.
-                    </p>
-                    <form action="">
-                        <input type="text" placeholder="Digite seu nome"/>
-                        <input type="text" placeholder="Digite seu e-mail" />
-                        <input type="text" id="tema-duvida" placeholder="Digite o assunto da dúvida"/>
-                        <input type="text" id="assunto-duvida" placeholder="Escreva sua dúvida aqui"/>
-                        <input type="submit" value="Enviar duvida"/>
-                    </form>
+                    <div id="box-assunto">
+                        <h3>
+                            Não achou o que procurava?
+                        </h3>
+                        <h5>
+                            Nos envie sua dúvida preenchendo os campos abaixo.
+                        </h5>
+                        <div class="form">
+                            <form action="">
+                                <input type="text" placeholder="Digite seu nome"/>
+                                <input type="text" placeholder="Digite seu e-mail" />
+                                <input type="text" id="tema-duvida" placeholder="Digite o assunto da dúvida"/>
+                                <input type="text" id="assunto-duvida" placeholder="Escreva sua dúvida aqui"/>
+                                <input type="submit" value="Enviar duvida"/>
+                            </form>
+                        </div>
+                    </div>
                 </section>
             </div>
         </section>
     </main>
     <footer>
-        <figure>
-            <img src="./DB/img/nextep-logo.png" alt="logomarca do site"/>
-        </figure>
         <p>
-            &#169 2024 neXtep Academy, Inc.
+            &#169 2024 <a class="anchor" href="./index.html" style="color: rgb(121, 121, 213);">neXtep Academy</a>, Inc.
         </p>
     </footer>
 </body>
